@@ -99,7 +99,7 @@ void pop()
         start = start -> next;
         free(ptr);
     }
-    else if(pos == n)
+    else if(pos >= n)
     {
         ptr = start;
         node *temp;
