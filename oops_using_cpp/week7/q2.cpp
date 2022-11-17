@@ -40,13 +40,17 @@ public:
 
 int main()
 {
+    Shape *ptr;
+
     Triangle t;
-    t.get_data();
-    t.display_area();
+    ptr = &t;
+    ptr->get_data();
+    ptr->display_area();
 
     Rectangle r;
-    r.get_data();
-    r.display_area();
+    ptr = &r;
+    ptr->get_data();
+    ptr->display_area();
     
     return 0;
 }
