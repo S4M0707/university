@@ -4,6 +4,7 @@ This project contains the Lab Assignments of B.Tech CSE from different semesters
 This project includes:
 * Data Structures using C
 * Object Oriented Programming using C++
+* Java Programming
 
 
 ## Clone
@@ -11,7 +12,7 @@ This project includes:
 To clone this project run
 
 ```bash
-  git clone https://github.com/S4M0707/university.git
+git clone https://github.com/S4M0707/university.git
 ```
 
 
