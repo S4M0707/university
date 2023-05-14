@@ -29,7 +29,8 @@ class FileManage {
                     System.out.println(fileData);  
                 }  
                 dataReader.close();  
-            } catch (Exception e) {  
+            }
+            catch (Exception e) {  
                 System.out.println(e);  
             }  
         } 
